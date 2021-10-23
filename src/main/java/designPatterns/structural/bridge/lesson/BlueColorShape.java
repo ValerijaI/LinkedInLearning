@@ -1,0 +1,11 @@
+package designPatterns.structural.bridge.lesson;
+
+import java.awt.*;
+
+public class BlueColorShape implements ColorShape {
+
+  public void setColor(Graphics graphics) {
+    graphics.setColor(Color.BLUE);
+  }
+
+}
